@@ -14,13 +14,14 @@ export const styles=StyleSheet.create({
     resultado:{
         color:'white',
         fontSize:60,
-        textAlign:'right'
+        textAlign:'right',
+        marginBottom:10
     },
     resultadoPequeno:{
-        color:'rgb(255,255,255,0.5)',
+        color:'rgba(255,255,255,0.5)',
         fontSize:30,
         textAlign:'right'
-    },
+    }, 
     fila:{
         flexDirection:'row',
         justifyContent:'center',
